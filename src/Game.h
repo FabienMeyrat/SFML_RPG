@@ -5,6 +5,8 @@
 #ifndef SFML_RPG_GAME_H
 #define SFML_RPG_GAME_H
 
+#include <iostream>
+
 #include "SFML/System.hpp"
 #include "SFML/Window.hpp"
 #include "SFML/Graphics.hpp"
@@ -32,6 +34,7 @@ public:
 
     // Functions
     void updateSFMLEvents();
+    void updateDt();
     void update();
     void render();
     void run();
